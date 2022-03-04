@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
     <title>Clima</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Clima Driven</h1>
+    </header>
+    <main>
+        <section class="pesquisa">
+            <input type="search" id="input-search" placeholder="digite sua cidade">
+            <button>Pesquisar</button>
+        </section>
+        <section class="resultados">
+            <div class="titulo"></div>
+            <div class="infos">
+                <div class="temperatura">
+                    <h2>Temperatura</h2>
+                    <div class="info-temp">  <span>ºC</span></div>
+                </div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png">
+                <div class="vento">
+                    <h2>Vento</h2>
+                    <div class="info-vento">  <span>km/h</span></div>
+                </div>
+            </div>
+            
+        </section>
+ 
+
+    </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>

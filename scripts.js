@@ -1,0 +1,1 @@
+const API_LINK = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(input)}&appid=b232d294a25096894ed488511a36d22c`;
